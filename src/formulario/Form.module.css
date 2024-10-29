@@ -1,0 +1,34 @@
+.formulario{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 30vh;
+    background-color: rgba(128, 128, 128, 0.295);
+    border: 1.5px solid #756f6f;
+    border-radius: 10px;
+}
+.divInput{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{ /*alterando estrutura dos inputs*/
+border: none;
+border-bottom: 1px solid #fff;
+margin: 5px;
+background-color: #7a76766c;
+padding: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+font-size: 20px;
+text-align: center;
+
+}
+
+.input::placeholder {
+    color: #ffffffaf; /* Substitua pela cor desejada */
+    opacity: 1; /* Ajusta a opacidade do placeholder */
+    font-size: 15px;
+}
+
+
